@@ -6,19 +6,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>All Students</title>
     <style>
+        .all-student{
+            margin: 0 auto;
+            width: 80%;
+        }
         td,th{
             border: 1px solid #dddddd;
             text-align:left;
             padding: 8px;
+            
         }
         .actions-column{
             width:200px;
             display: flex;
+            text-align:center;
           
         }
         .actions-column a{
             margin-left:5px;
             border:1px solid green;
+           
             
         }
     </style>

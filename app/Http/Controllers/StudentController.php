@@ -10,7 +10,7 @@ class StudentController extends Controller
     public function showData(Request $request){
         $pageNumber = $request->query('page', 1);
         //$students= Student::all();
-        $students = Student::paginate(1);
+        $students = Student::paginate(15);
 
         return view('students_show',compact('students'));
 
